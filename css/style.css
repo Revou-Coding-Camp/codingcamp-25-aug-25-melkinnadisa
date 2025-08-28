@@ -168,7 +168,7 @@ form button:hover {
 #successMsg {
   text-align: center;
   margin-top: 15px;
-  color: green;
+  color: rgb(64, 132, 64);
   font-weight: bold;
 }
 
