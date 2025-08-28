@@ -49,13 +49,14 @@ nav ul li a:hover {
 /* Banner */
 .banner {
   height: 300px;
-  background: url('https://picsum.photos/1366/400') center/cover no-repeat;
+  background: #333 url('https://picsum.photos/1366/768?random') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
 }
+
 
 .banner h1 {
   font-size: 2rem;
