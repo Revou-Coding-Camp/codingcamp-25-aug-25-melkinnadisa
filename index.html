@@ -1,106 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Company Profile</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Company Website</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- HEADER -->
+  <!-- Navbar -->
   <header>
-    <div class="container">
-      <h1 class="logo">MyCompany</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <div class="logo">KinyoyyCompany</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Welcome to <span>MyCompany</span></h2>
-      <p>Innovating the future with technology and creativity.</p>
-      <a href="#contact" class="btn">Get in Touch</a>
+  <!-- Home Section -->
+  <section id="home" class="banner">
+    <div class="banner-content">
+      <h1 id="welcome">Hii, Welcome To Kinyoyy Company</h1>
+      <p>a company that can help you with today's digital sophistication</p>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>MyCompany is a leading provider of innovative technology solutions. We specialize in delivering high-quality products and services that empower businesses to thrive in the digital era.</p>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="section bg-light">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="card">
-          <h3>Web Development</h3>
-          <p>Custom websites and applications designed to your needs.</p>
-        </div>
-        <div class="card">
-          <h3>Mobile Apps</h3>
-          <p>Powerful and user-friendly mobile applications for all platforms.</p>
-        </div>
-        <div class="card">
-          <h3>IT Consulting</h3>
-          <p>Expert advice to optimize and scale your technology infrastructure.</p>
-        </div>
+  <!-- Profile Section -->
+  <section id="profile" class="profile">
+    <h2>Our Profile</h2>
+    <div class="profile-content">
+      <div class="about">
+        <h3>Tentang Perusahaan</h3>
+        
+        <p>We are an innovative digital company transforming the way businesses and individuals interact with technology. With a passion for creativity and cutting-edge technological excellence, we deliver digital solutions that inspire and empower change.
+          In a rapidly evolving world, we serve as a reliable partner for digital transformation, combining ideas, data, and technology to create impactful digital experiences for our customers.
+          We believe the future is digital, and we are committed to unlocking new opportunities through innovation, speed, and responsiveness in addressing the challenges of modern technology.</p>
+      </div>
+      <div class="vision">
+        <h3>Visi</h3>
+        <p>To be a leading digital company in Indonesia that creates positive impact.
+          And to be a leading digital solutions leader that inspires innovation and drives technological transformation
+          for a more connected and intelligent future.</p>
+      </div>
+      <div class="mission">
+        <h3>Misi</h3>
+        <ul>
+          <li>Providing easy-to-use technology solutions.</li>
+          <li>Supporting MSMEs in their digital transformation.</li>
+          <li>Building a sustainable digital ecosystem.</li>
+          <li>Encouraging innovation through collaboration.</li>
+          <li>Providing high-quality digital services and products with the latest technology.</li>
+          <li>Prioritizing customer satisfaction with fast and responsive service.</li>
+          <li>Encouraging a creative and collaborative culture to continue evolving with the changing digital world.</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- TEAM -->
-  <section id="team" class="section">
-    <div class="container">
-      <h2>Our Team</h2>
-      <div class="team-grid">
-        <div class="team-member">
-          <img src="https://via.placeholder.com/150" alt="Team member">
-          <h3>Jane Doe</h3>
-          <p>CEO</p>
-        </div>
-        <div class="team-member">
-          <img src="https://via.placeholder.com/150" alt="Team member">
-          <h3>John Smith</h3>
-          <p>CTO</p>
-        </div>
-        <div class="team-member">
-          <img src="https://via.placeholder.com/150" alt="Team member">
-          <h3>Mary Johnson</h3>
-          <p>Designer</p>
-        </div>
-      </div>
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>Our Headquarter</h2>
+    <div class="cities">
+      <div class="city"> 
+      <img src="img/jakarta.png" alt="Jakarta">
+      <p>Jakarta</p>
+    </div>
+      <div class="city">
+      <img src="img/bandung.png" alt="Bandung">
+      <p>Bandung</p>
+    </div>
+      <div class="city">
+      <img src="img/medan.png" alt="Medan">
+      <p>Medan</p>
+    </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section bg-light">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
+  <!-- Message Us Section -->
+  <section id="message" class="message">
+    <h2>Message Us</h2>
+    <form id="contactForm">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Nomor Telepon:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10,13}" required>
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Pesan sukses -->
+    <p id="successMsg" class="hidden">✅ Terima kasih, pesan Anda sudah terkirim!</p>
+
+    <!-- Hasil input user -->
+    <div id="formResult" class="hidden">
+      <h3>Data yang Anda kirim:</h3>
+      <p><strong>Nama:</strong> <span id="resNama"></span></p>
+      <p><strong>Email:</strong> <span id="resEmail"></span></p>
+      <p><strong>Nomor Telepon:</strong> <span id="resPhone"></span></p>
+      <p><strong>Pesan:</strong> <span id="resPesan"></span></p>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 MyCompany. All Rights Reserved.</p>
+    <p>Created By Kinyoyy</p>
   </footer>
 
   <script src="js/script.js"></script>
