@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <h1 class="logo">MyCompany</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to <span>MyCompany</span></h2>
+      <p>Innovating the future with technology and creativity.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>MyCompany is a leading provider of innovative technology solutions. We specialize in delivering high-quality products and services that empower businesses to thrive in the digital era.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section bg-light">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Custom websites and applications designed to your needs.</p>
+        </div>
+        <div class="card">
+          <h3>Mobile Apps</h3>
+          <p>Powerful and user-friendly mobile applications for all platforms.</p>
+        </div>
+        <div class="card">
+          <h3>IT Consulting</h3>
+          <p>Expert advice to optimize and scale your technology infrastructure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="section">
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://via.placeholder.com/150" alt="Team member">
+          <h3>Jane Doe</h3>
+          <p>CEO</p>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/150" alt="Team member">
+          <h3>John Smith</h3>
+          <p>CTO</p>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/150" alt="Team member">
+          <h3>Mary Johnson</h3>
+          <p>Designer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 MyCompany. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
